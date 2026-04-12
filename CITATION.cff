@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you reference A2A Commerce in academic or technical work, please cite as follows."
+title: "A2A Commerce Specification: The Fifth Paradigm of Electronic Commerce"
+abstract: >-
+  A2A Commerce (Agent-to-Agent Commerce) is the fifth paradigm of electronic
+  commerce, in which both buyer and seller are represented by autonomous AI
+  Agents acting under human-delegated authority. This specification defines
+  the paradigm, its terminology, maturity model (ACML), transaction protocol,
+  trust framework, interoperability standards, and economic model.
+type: report
+authors:
+  - name: "AgentShow"
+    affiliation: "Shenzhen Zhiyi Technology Co., Ltd."
+    website: "https://agentshow.shop"
+version: "1.0"
+date-released: "2026-04-11"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/agentshow/a2a-commerce-spec"
+keywords:
+  - "A2A Commerce"
+  - "Agent-to-Agent"
+  - "Electronic Commerce"
+  - "AI Agent"
+  - "Autonomous Trading"
+  - "Fifth E-Commerce Paradigm"
+  - "AgentShow"
+  - "ACML"
