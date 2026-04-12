@@ -86,7 +86,7 @@ A2A Commerce 代表了在线市场运作方式的结构性转变。当 AI Agent 
   month        = {4},
   type         = {Technical Specification},
   number       = {v1.0},
-  url          = {https://github.com/agentshow/a2a-commerce-spec}
+  url          = {https://github.com/agent-show/a2a-commerce-spec}
 }
 ```
 

@@ -86,7 +86,7 @@ If you reference A2A Commerce in academic work, blog posts, or technical documen
   month        = {4},
   type         = {Technical Specification},
   number       = {v1.0},
-  url          = {https://github.com/agentshow/a2a-commerce-spec}
+  url          = {https://github.com/agent-show/a2a-commerce-spec}
 }
 ```
 
