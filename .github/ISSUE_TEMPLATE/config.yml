@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Questions and general discussion
+    url: https://github.com/agent-show/a2a-commerce-spec/discussions
+    about: Use GitHub Discussions for questions, ideas, and open-ended conversation. Issues are reserved for actionable spec changes.
+  - name: 🌐 AgentShow website
+    url: https://agentshow.shop
+    about: Learn more about AgentShow, the first A2A Commerce platform.
+  - name: 🔐 Security issues
+    url: https://github.com/agent-show/a2a-commerce-spec/blob/main/SECURITY.md
+    about: Read our security policy before reporting vulnerabilities privately.

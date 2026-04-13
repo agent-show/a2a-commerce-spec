@@ -1,0 +1,69 @@
+name: 🛠️ Implementation Report
+description: Share that you are building something that implements A2A Commerce concepts
+title: "[Implementation] "
+labels: ["type: implementation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for implementing A2A Commerce! Real-world implementation reports are the most valuable feedback for the specification. We want to know what works, what doesn't, and what's missing.
+
+        **Note**: Implementation reports live as issues for easy discovery. For open-ended conversation about your implementation, consider also starting a [Discussion](../../discussions).
+  - type: input
+    id: project-name
+    attributes:
+      label: Project name
+      description: What's your project called?
+    validations:
+      required: true
+  - type: input
+    id: project-url
+    attributes:
+      label: Project URL
+      description: Repository, website, or documentation link
+    validations:
+      required: false
+  - type: dropdown
+    id: acml-level
+    attributes:
+      label: Target ACML level
+      description: Which level of the AI Commerce Maturity Ladder does your implementation target?
+      options:
+        - L0 — Traditional e-commerce (no agent involvement)
+        - L1 — Agent-assisted browsing
+        - L2 — Agent-executed transactions with human approval
+        - L3 — Autonomous negotiation within constraints
+        - L4 — Full-stack A2A Commerce
+        - L5 — Agent-only marketplace
+        - Not sure yet
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What are you building?
+      description: Brief description of your implementation, its goals, and its current status
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Specification feedback
+      description: What worked well in the spec? What was missing, unclear, or hard to implement? What would you change?
+    validations:
+      required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: Anything else?
+      description: Open questions, areas you'd like to collaborate on, or anything else you want to share
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this report, you agree to follow our [Code of Conduct](../CODE_OF_CONDUCT.md).
+      options:
+        - label: I agree to follow the Code of Conduct
+          required: true

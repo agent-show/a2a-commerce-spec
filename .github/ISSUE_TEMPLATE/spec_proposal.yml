@@ -1,0 +1,71 @@
+name: 💡 Specification Proposal
+description: Propose a substantive change, addition, or extension to the A2A Commerce Specification
+title: "[Proposal] "
+labels: ["type: proposal", "needs-discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for proposing an improvement to the A2A Commerce Specification. Substantive proposals require discussion before any PR is opened. Please fill out the fields below so we can evaluate the proposal.
+
+        **Note**: Proposals that materially change the spec will typically be tracked for a future version (v1.1, v2.0), not merged into v1.0.
+  - type: dropdown
+    id: proposal-type
+    attributes:
+      label: Proposal type
+      description: What kind of change are you proposing?
+      options:
+        - New principle or property
+        - Change to an existing definition
+        - Addition to the ACML (Maturity Ladder)
+        - Extension to the negotiation protocol
+        - New section or topic
+        - Clarification of ambiguous language
+        - Other (describe below)
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: What problem does this proposal solve? What's missing, wrong, or unclear in the current spec?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe your proposal. Include as much detail as you can — proposed wording, affected sections, examples.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Did you consider other approaches? Why did you choose this one?
+    validations:
+      required: false
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact on existing content
+      description: Would this break or invalidate parts of the current spec? Would implementers of v1.0 need to change anything?
+    validations:
+      required: false
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Related prior art, academic papers, similar proposals in other specs, real-world examples, etc.
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this proposal, you agree to follow our [Code of Conduct](../CODE_OF_CONDUCT.md).
+      options:
+        - label: I agree to follow the Code of Conduct
+          required: true
+        - label: I have read [CONTRIBUTING.md](../CONTRIBUTING.md) and understand the process for substantive proposals
+          required: true

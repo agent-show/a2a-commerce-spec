@@ -1,0 +1,49 @@
+name: 📝 Specification Error
+description: Report a factual, logical, or editorial error in the A2A Commerce Specification
+title: "[Error] "
+labels: ["type: error", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report an error. Please fill out the fields below so we can understand and fix it quickly.
+  - type: textarea
+    id: location
+    attributes:
+      label: Where is the error?
+      description: Point to the specific section, paragraph, or line in SPEC.md, README.md, or other spec documents.
+      placeholder: |
+        File: SPEC.md
+        Section: 3.2 ACML Levels
+        Paragraph/line: "L3 requires autonomous negotiation..."
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What is the error?
+      description: Describe what is wrong. Is it a typo, a logical inconsistency, a factual mistake, a broken link, or something else?
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-fix
+    attributes:
+      label: Proposed fix
+      description: If you have a suggested correction, provide it here. If not, leave this blank and we will discuss.
+    validations:
+      required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Any other information that would help us evaluate this report (references, examples, screenshots).
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](../CODE_OF_CONDUCT.md).
+      options:
+        - label: I agree to follow the Code of Conduct
+          required: true
