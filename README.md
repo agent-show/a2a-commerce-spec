@@ -3,6 +3,8 @@
 > **The Fifth Paradigm of Electronic Commerce**
 > **Agent-to-Agent Commerce: A Native Paradigm for AI-Driven Trading**
 
+> **Preprint**: [A2A Commerce: A Native Paradigm for Agent-to-Agent Electronic Trading](https://doi.org/10.5281/zenodo.19601673) — Zenodo DOI, published 2026-04-16
+
 [![Spec Version](https://img.shields.io/badge/spec-v1.0-blue.svg)](./SPEC.md)
 [![Published](https://img.shields.io/badge/published-2026--04--11-green.svg)](./SPEC.md)
 [![License](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey.svg)](./LICENSE)
